@@ -1,3 +1,6 @@
 # camping
-시연영상입니다.
-[![프로젝트 시연 영상](https://img.youtube.com/vi/NqZPjVSM8v4/0.jpg)](https://www.youtube.com/watch?v=NqZPjVSM8v4)
+
+<div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NqZPjVSM8v4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <p>시연 영상입니다.</p>
+</div>
