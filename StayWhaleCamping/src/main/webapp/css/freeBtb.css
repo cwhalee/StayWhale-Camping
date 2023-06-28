@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+/*a:link { 
+ 	color: red; text-decoration: none;
+ }
+a:visited { 
+ 	color: black; text-decoration: none;
+ }
+ a:hover { 
+ 	color: blue; text-decoration: underline;
+}*/
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+ol, ul, li{
+	list-style-type: none;
+}
+
+section{
+	margin:auto;
+	width: 1280px;
+	height: 1000px;
+}
+
+#conceptImg{
+	width: 1280px;
+	height: 350px;
+	margin: 20px auto;
+	background-image: url("../image/conceptImg.png");
+	background-size: cover;
+	
+}
+#contTitle1{
+	position:relative;
+	top: 20px;
+	left: 30px;
+	font-family: 'Cardo', serif;
+	font-size: 50px;
+	
+}
+
+#titleWrap{
+	width: 1050px;
+	height: 100px;
+	margin: auto;
+	border-bottom: 3px solid black;
+}
+#titleWrap > strong{
+	display: inline;
+	position: relative;
+	top: 16px;
+	font-size: 30px
+}
+
+#titleWrap > p{
+	display: inline;
+	position: relative;
+	top: 18px;
+	color: #999;
+
+}
+
+
+
+
+#contwrap{
+	width: 1000px;
+	height: 900px;
+	margin:20px auto;
+}
+#cont{
+	min-width: 800px;
+	min-height: 700px;
+	margin: 130px auto;
+	border: none;
+}
+
+#title{
+	position: relative;
+	left: 0px;
+	border-top: 2px solid black;
+	text-align: center;
+
+}
+#title li{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	background-color: #d0eaff;
+}
+
+
+#cont  ul  li{
+	
+	float: left;
+	line-height: 40px;
+	border-bottom: 3px solid #EBEBEB;
+	text-align: center;
+}
+
+
+#cont ul > li:first-child{
+	width: 100px;
+	height: 40px;
+	
+}
+#cont ul > li:nth-child(2){
+	width: 500px;
+	height: 40px;
+	
+}
+#cont ul > li:nth-child(3){
+	width: 150px;
+	height: 40px;
+	
+}
+#cont ul > li:nth-child(4){
+	width: 150px;
+	height: 40px;
+	
+}
+#cont ul > li:last-child{
+	width: 100px;
+	height: 40px;
+	
+}
+
+#title ~ ul>li:nth-child(3){
+	color: #999;
+}
+#title ~ ul>li:nth-child(4){
+	color: #999;
+}
+
+
+
+#content{
+	position: relative;
+	top: -75px; 
+	width: 100%;
+	height: 600px;
+	box-sizing: content-box;
+	overflow: hidden;
+	border-bottom: 2px solid black;
+}
+
+/*#title ~ ul{
+	cursor: pointer;
+}*/
+
+.col2
+{
+	cursor: pointer;
+}
+.col2:hover
+{
+	text-decoration: underline;
+}
+#write{
+	position:absolute;
+	margin-left: 380px;
+	margin-top: -135px;
+	width: 100px;
+	height: 40px;
+	background-color: #4B89DC;
+	color: white;
+	border: none;
+	font-weight: bolder;
+}
+#search{
+	position: relative;
+	left:200px;
+	top: 5px;
+	width: 300px;
+	height: 30px;
+	
+}
+#searchbtn{
+	position: relative;
+	left: 201px;
+	top: 6px; 
+	width: 70px;
+	height: 34px;
+	background-color: #4B89DC;
+	font-weight: bolder;
+	border: none;
+	color: white;
+}
+#searchOption{
+	position: relative;
+	top:5px;
+	left:201px;
+	width: 140px;
+	height: 34px;
+	text-align: center;
+	display: inline;
+	
+}
+
+
+
+.link {
+	cursor: pointer;
+	text-decoration: underline;
+	color: blue;
+}
+.chosen {
+	cursor: default;
+	text-decoration: none;
+	color: black;
+}
+#container {
+	font-family:Arial,sans-serif;
+	position: relative;
+	top: -40px;
+	left:306px;
+	padding: 20px 10px 15px 10px;
+	width: 350px;
+	border: none;
+}
+#pagination{display:inline-block;vertical-align:middle;padding:1px 2px 4px 2px;font-size:12px;color:#7D7D7D;}
+#pagination a,#pagination i{display:inline-block;vertical-align:middle;width:22px;color:#7D7D7D;text-align:center;padding:4px 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+#pagination a{margin:0 2px 0 2px;cursor:pointer;}
+#pagination a:hover{background-color:#999;color:#fff;}
+#pagination i{margin:0 1px 0 1px;cursor:pointer;border:2px solid transparent;}
+#pagination i:hover{margin:0 1px 0 1px;border:2px solid #999;cursor:pointer;}
+#pagination input{width:30px;padding:4px 4px;color:#7D7D7D;border: 1px solid #cccccc;text-align:right;font-size:12px;margin-bottom:2px;}
+#pagination a.current{border:1px solid #E9E9E9;background-color:#666;color:#fff;}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  height: 100%;
+  /*background: #FAFAFA;*/
+  /*overflow: hidden;*/
+  /*font-family: 'Roboto', sans-serif;*/
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+
+
+.tab-bar {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.tab {
+  width: 150px;
+  padding: 20px 0;
+  background: white;
+  color: #607D8B;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  font-weight: bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.indicator {
+  width: 150px;
+  height: 3px;
+  background: #2196F3;
+  position: absolute;
+  margin-top: 63px;
+  margin-left:150px;
+  
+  -webkit-transition: margin 0.5s ease;
+  
+  transition: margin 0.5s ease;
+}
+
+.cercle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+.light .cercle {background: white}
+.dark .cercle {background: black}
+
+.anim {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  -webkit-animation: touch 1.2s ease-out;
+          animation: touch 1.2s ease-out;
+}
+
+@-webkit-keyframes touch {
+  100% { 
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin: -300px;
+  }
+}
+
+@keyframes touch {
+  100% { 
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin: -300px;
+  }
+}
+
+.tab-bar li:not(.selected):hover
+{
+	color:red;
+	transition: all 0.5s ease;
+	
+}
+
+.tab-bar .selected
+{
+	background-color: skyblue;
+	color: black;
+}
+
+
+	
