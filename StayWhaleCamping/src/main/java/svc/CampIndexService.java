@@ -18,7 +18,7 @@ public class CampIndexService {
 		
 		campingList = campingDAO.camping_SelectList();		
 		close(con);
-
+		System.out.println(campingList);
 		return campingList;		
 	}
 

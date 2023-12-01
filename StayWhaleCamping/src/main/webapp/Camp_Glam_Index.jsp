@@ -1,12 +1,11 @@
 <!DOCTYPE html>
+<html>
 <%@ page language="java" contentType="text/html;charset=utf-8" pageEncoding="utf-8" %>
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.*"%>
 <%@ page import="vo.Accmodation_Camping" %>
 <%@ page import="vo.Camping_Youtube" %>
 <% request.setCharacterEncoding("UTF-8");%>
-
-<html>
 <head>
 	 <meta charset="utf-8">
 	 <title>STAY WHALE || Camp_Glam</title>
